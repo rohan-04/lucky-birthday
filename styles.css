@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+	--primary-color: #fca5a5;
+	--secondary-color: #752525;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: var(--primary-color);
+	color: var(--secondary-color);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+#date-of-birth,
+#lucky-number {
+	padding: 0.8rem;
+	width: 70%;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	border: none;
+}
+
+#check-button {
+	padding: 0.5rem 1rem;
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
+	border: none;
+	border-radius: 5px;
+}
+
+#output-para {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.footer {
+	margin-top: 1.5rem;
+	background-color: var(--primary);
+	color: var(--secondary-color);
+	text-align: center;
+	padding: 2rem 1rem;
+	border-top-right-radius: 1rem;
+	margin-top: 28vh;
+}
+
+.list-non-bullet {
+	list-style: none;
+}
+
+.list-item-inline {
+	display: inline;
+	padding: 0rem 0.5rem;
+}
+
+.footer .link {
+	color: var(--secondary-color);
+}
+
+.footer .footer-header {
+	font-weight: bold;
+	font-size: large;
+}
+
+.footer ul {
+	padding-inline-start: 0px;
+}
